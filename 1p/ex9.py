@@ -1,8 +1,6 @@
 # Exercice 9
 
-from math import sqrt
-from math import pi
-from math import exp
+from math import sqrt, pi, exp
 def gauss_function(x):
     return (1/sqrt(2*pi))*exp(-0.5*((x)**2))
     
